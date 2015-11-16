@@ -32,6 +32,11 @@ typedef void(^DrawLineNumber)(NSString *, CGFloat);
     [super drawRect:dirtyRect];
     
     // Drawing code here.
+    
+    NSPoint p1 = self.clientView.frame.origin;
+    NSPoint p2 = {self.clientView.frame.origin.x, self.clientView.frame.size.height};
+    [[NSColor grayColor] set];
+    [NSBezierPath strokeLineFromPoint:p1 toPoint:p2];
 }
 
 - (void)drawHashMarksAndLabelsInRect:(NSRect)rect {

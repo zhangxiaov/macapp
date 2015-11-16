@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2EAC5A342885E416851C3E07CB57CB2E97F73DCD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "919A972A20A488D91E7D1E8546F19BB726374BA4" : 0,
+    "2EAC5A342885E416851C3E07CB57CB2E97F73DCD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1EDEB854-714F-4CDC-A4C5-1B2877BB4CE6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "919A972A20A488D91E7D1E8546F19BB726374BA4" : "macapp_demo\/",
+    "2EAC5A342885E416851C3E07CB57CB2E97F73DCD" : "macapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "macapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "macapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhangxiaov\/macapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EAC5A342885E416851C3E07CB57CB2E97F73DCD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:zhangxiaov\/macapp_demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "919A972A20A488D91E7D1E8546F19BB726374BA4"
+    }
+  ]
+}

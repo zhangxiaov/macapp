@@ -10,8 +10,6 @@
 		EDF6963B1BE999B50024E55F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6963A1BE999B50024E55F /* AppDelegate.m */; };
 		EDF6963E1BE999B60024E55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6963D1BE999B60024E55F /* main.m */; };
 		EDF696411BE999B60024E55F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF696401BE999B60024E55F /* ViewController.m */; };
-		EDF696431BE999B60024E55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF696421BE999B60024E55F /* Assets.xcassets */; };
-		EDF696461BE999B60024E55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF696441BE999B60024E55F /* Main.storyboard */; };
 		EDF696511BE999B60024E55F /* macappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF696501BE999B60024E55F /* macappTests.m */; };
 		EDF6965C1BE999B60024E55F /* macappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6965B1BE999B60024E55F /* macappUITests.m */; };
 		EDF696711BE99A690024E55F /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF6966E1BE99A690024E55F /* MyWindow.m */; };
@@ -47,9 +45,6 @@
 		EDF6963D1BE999B60024E55F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDF6963F1BE999B60024E55F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EDF696401BE999B60024E55F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDF696421BE999B60024E55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDF696451BE999B60024E55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDF696471BE999B60024E55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF6964C1BE999B60024E55F /* macappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF696501BE999B60024E55F /* macappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macappTests.m; sourceTree = "<group>"; };
 		EDF696521BE999B60024E55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,9 +123,6 @@
 				EDF6963A1BE999B50024E55F /* AppDelegate.m */,
 				EDF6963F1BE999B60024E55F /* ViewController.h */,
 				EDF696401BE999B60024E55F /* ViewController.m */,
-				EDF696421BE999B60024E55F /* Assets.xcassets */,
-				EDF696441BE999B60024E55F /* Main.storyboard */,
-				EDF696471BE999B60024E55F /* Info.plist */,
 				EDF6963C1BE999B60024E55F /* Supporting Files */,
 				EDF696751BE9F8280024E55F /* SideTopView.h */,
 				EDF696761BE9F8280024E55F /* SideTopView.m */,
@@ -275,8 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF696431BE999B60024E55F /* Assets.xcassets in Resources */,
-				EDF696461BE999B60024E55F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,17 +334,6 @@
 			targetProxy = EDF696581BE999B60024E55F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EDF696441BE999B60024E55F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDF696451BE999B60024E55F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDF6965E1BE999B60024E55F /* Debug */ = {
@@ -439,7 +418,6 @@
 		EDF696611BE999B60024E55F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -451,7 +429,6 @@
 		EDF696621BE999B60024E55F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

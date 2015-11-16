@@ -7,19 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MyWindow.h"
+#import "AppDelegate.h"
 
 int main(int argc, const char * argv[]) {
-//    return NSApplicationMain(argc, argv);
     
-    NSRect rc = NSMakeRect(0, 0, 400, 400);
-    NSUInteger uiStyle = NSTitledWindowMask | NSResizableWindowMask | NSClosableWindowMask;
-    NSBackingStoreType backingStoreStyle = NSBackingStoreBuffered;
-    MyWindow *win = [[MyWindow alloc] initWithContentRect:rc styleMask:uiStyle backing:backingStoreStyle defer:NO];
-    [win makeKeyAndOrderFront:win];
-    [win makeMainWindow];
-    
-    [NSApp run];
+    @autoreleasepool {
+        NSApplication *app = [NSApplication sharedApplication];
+        id delegate = [[AppDelegate alloc] init];
+        app.delegate = delegate;
+        
+        return NSApplicationMain(argc, argv);
+    }
 }
 
 
