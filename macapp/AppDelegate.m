@@ -64,13 +64,13 @@
     [_window setTitle: @"Hello World"];
     
     /* Create Label */
-    _label = [[NSTextField alloc] initWithFrame: NSMakeRect(30, 30, 80, 30)];
-    [_label setSelectable: NO];
-    [_label setBezeled: NO];
-    [_label setDrawsBackground: NO];
-    [_label setStringValue: @"Helloa World"];
-    
-    [[_window contentView] addSubview: _label];
+//    _label = [[NSTextField alloc] initWithFrame: NSMakeRect(30, 30, 80, 30)];
+//    [_label setSelectable: NO];
+//    [_label setBezeled: NO];
+//    [_label setDrawsBackground: NO];
+//    [_label setStringValue: @"Helloa World"];
+//    
+//    [[_window contentView] addSubview: _label];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -81,7 +81,7 @@
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-
+    NSLog(@"stop");
 }
 
 - (void)windowDidResize:(NSNotification *)notification {
